@@ -15,7 +15,6 @@
             <img src="img/logo.png" alt="logo" >
         </header>
         
-        
 
         <main>
             <section class="seccion-1">
@@ -27,31 +26,28 @@
                     </div>
             
                     <div class="botones">
-                        <button class="btn-encriptar">Encriptar</button>
-                        <button class="btn-desencriptar">Desencriptar</button>
+                        <button class="btn-encriptar" onclick="encriptar()">Encriptar</button>
+                        <button class="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
                     </div>
                 </div>
 
                 <div class="rectangulo">
     
-                    <img src="img/Muñeco.png" alt="muñeco" class="muneco">
+                    <img src="img/Muñeco.png" alt="muñeco" class="muñeco" id="muñeco">
         
-                    <p class="p-1">Ningun mensaje fué encontrado</p>
+                    <p class="p-1" id="titulo-mensaje">Ningun mensaje fué encontrado</p>
         
-                    <p class="p-2">Ingresa el texto que deseas encriptar o desencriptar</p>
-        
+                    <p class="p-2" id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
+                    
+                    <button class="btn-copiar" id="copiar" onclick="copiar()">copiar</button>
                 </div>
 
             </section>
 
-    
-
-           
         </main>
-
-      
 
     </div>
     
+    <script src="js/script.js"></script>
 </body>
 </html>

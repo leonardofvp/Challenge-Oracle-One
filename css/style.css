@@ -84,8 +84,8 @@ header{
 
 }
 
-.muneco{
-    width: 60%;
+.muñeco{
+    width: 80%;
 }
 
 .p-1{
@@ -180,11 +180,32 @@ color: #495057;
     
  }
 
+ .btn-copiar{
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    gap: 8px;
+    width: 50%;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 19px;
+    text-align: center;
+    color:   #0A3871;
+    margin-left: 30px;
+    display: none;
+    
+
+ }
+
  .btn-encriptar:hover,
- .btn-desencriptar:hover{
+ .btn-desencriptar:hover,
+ .btn-copiar:hover{
     transform: scale(1.1);
     cursor: pointer;
  }
+
+ 
 
  @media (max-width: 768px) {
 
@@ -212,7 +233,7 @@ color: #495057;
 
      }
 
-     .muneco {
+     .muñeco {
          display: none;
      }
 
