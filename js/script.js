@@ -23,12 +23,13 @@ function encriptar() {
         tituloMensaje.textContent = " Texto encriptado con exito";
         tituloMensaje.style.color = "#343A40"
         parrafo.textContent = "";
-        muñeco.src = "/img/cerrado.jpg";
+        muñeco.src = "img/cerrado.jpg";
         muñeco.style.width = "90%";
         muñeco.style.borderRadius = "50%";
         btnCopiar.style.display = "block";
 
     } else {
+        muñeco.src = "img/falla.png";
         tituloMensaje.textContent = " Debes ingresar un texto";
         tituloMensaje.style.color = "red"
     }
@@ -50,11 +51,12 @@ function desencriptar(){
         tituloMensaje.textContent = " Texto desencriptado con exito";
         tituloMensaje.style.color = "#343A40"
         parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
-        muñeco.src = "/img/abierto.jpg";
+        muñeco.src = "img/abierto.jpg";
         muñeco.style.width = "90%";
         btnCopiar.style.display = "block";
 
     } else {
+        muñeco.src = "img/falla.png";
         tituloMensaje.textContent = " Debes ingresar un texto encriptado";
         tituloMensaje.style.color = "red"
     }
